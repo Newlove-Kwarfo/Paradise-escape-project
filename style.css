@@ -407,5 +407,76 @@ header nav{
     align-items: center;
     justify-content: space-between;
     gap: 1rem;  
-    
+}
+
+footer{
+ position: absolute;
+ width: 100%;
+}
+
+.foot{
+    background-color: rgb(15 23 42);;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 300px;
+    color: white;
+}
+
+.foot h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.foot p {
+    font-size: 1rem;
+    max-width: 350px;
+    color: rgb(203 213 225);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 170px;
+    padding: 80px;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fcta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 350px;
+    gap: 20px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
+    gap: 20px;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
+    gap: 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(203 213 225)
+}
+
+#social {
+    display: flex;
+    gap: 15px;
 }
