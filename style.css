@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+
+header{
+ position: absolute;
+ width: 100%;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1450px;
+    padding: 1rem .5rem;
+    margin: auto;
+}
+header p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+ nav a{
+    color: white;
+    text-decoration: none;
+ }
+ nav a:hover{
+    color:#2fcebe;
+}
+
+
+
+
+.hero{
+    background-image: url("hero.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.darklens{
+    background-color: rgba(0, 0, 0, 0.30);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.hero h1 {
+    font-size: 3.75rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 500px;
+    text-align: center;
+}
+.hero button{
+    font-size: 1.125rem;
+    color:rgb(13 148 136);
+    background-color: white;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;  
+    
+}
+.hero img {
+    opacity: 1;
+    color: rgb(13 148 136);
+}
+
+
+
+
+.coralReef{
+    background-image: url("coralReef.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.darklens2{
+    background-color: rgb(30 58 138 / 0.4);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+
+}
+.coralReef h1 {
+    font-size: 2.25rem;
+}
+
+.coralReef p {
+    font-size: 1.25rem;
+    color: rgb(255 255 255 / 0.9);
+    max-width: 35rem;
+    text-align: left;
+}
+
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 26rem;
+    background-color: rgba(255, 255, 255, 0.93);
+    border-radius: 15px;
+    padding: 40px;
+
+}
+
+#icon{
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 5px;
+    height: 60px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 13px;
+}
+#cardP{
+    font-size: 1rem;
+    color: rgb(51 65 85);
+    max-width: 30rem;
+}
+
+#cardTitle{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(15 23 42);
+}
+
+
+
+
+
+.caveSpa{
+    background-image: url("caveSpa.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.darklens3{
+    background-color: rgb(120 53 15 / 0.3);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleTxt2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+
+}
+.caveSpa h1 {
+    font-size: 2.25rem;
+}
+
+.caveSpa p {
+    font-size: 1.25rem;
+    color: rgb(255 255 255 / 0.9);
+    max-width: 35rem;
+    text-align: left;
+}
+
+
+
+
+
+
+.Tropic{
+    background-image: url("tropic.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.darklens4{
+    background-color: rgb(20 83 45 / 0.4);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Tropic h1 {
+    font-size: 2.25rem;
+}
+
+.Tropic p {
+    font-size: 1.25rem;
+    color: rgb(255 255 255 / 0.9);
+    max-width: 35rem;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.gallery{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 950px;
+    width: 100vw;
+    color: rgb(15 23 42);
+}
+.darklens5{
+    background-color:rgb(248 250 252);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+}
+
+.titleTxt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 35px;
+
+}
+.gallery h1 {
+    font-size: 2.25rem;
+}
+
+.gallery p {
+    font-size: 1.25rem;
+    color: rgb(51 65 85);
+    max-width: 45rem;
+    text-align: center;
+}
+.pictures{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 10px 70px 70px 70px;
+}
+.pic1{
+    background-image: url(hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    border: none;
+    border-radius: 20px;
+}
+.pic2{
+    background-image: url(coralReef.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    border: none;
+    border-radius: 20px;
+}
+.pic3{
+    background-image: url(caveSpa.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    border: none;
+    border-radius: 20px;
+}
+.pic4{
+    background-image: url(tropic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    border: none;
+    border-radius: 20px;
+}
+.pic5{
+    background-image: url(bathroom.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+.book{
+    background-image: url("bathroom.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.darklens6{
+    background-color: rgb(0 0 0 / 0.5);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.book h1 {
+    font-size: 3rem;
+    max-width: 700px;
+    text-align: center;
+}
+
+.book p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    text-align: center;
+}
+.book button{
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: rgba(20, 184, 165, 0.95);
+    color: white;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;  
+    
+}
